@@ -27,9 +27,12 @@
                     @enderror
                 </div>
                 
-                <div class="d-grid">
+                <div class="mt-3 d-flex gap-2">
                     <x-botao type="btn btn-dark">Entrar</x-botao>
+                    <a href="{{ route('admin.dashboard' ) }}" class="btn btn-danger">Dashboard Teste</a>
                 </div>
+
+                
             </form>
         </div>
     </div>
